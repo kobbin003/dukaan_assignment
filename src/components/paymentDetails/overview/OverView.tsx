@@ -11,8 +11,6 @@ const OverView = () => {
 					<IconDownArrow
 						iconFill="fill-font-gray"
 						iconStroke="stroke-font-gray"
-						// iconFill="fill-gray-800"
-						// iconStroke="stroke-gray-800"
 						height="h-3"
 						width="w-3"
 					/>

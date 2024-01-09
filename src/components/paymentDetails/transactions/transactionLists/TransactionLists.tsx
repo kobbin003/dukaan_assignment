@@ -7,7 +7,6 @@ const TransactionLists = () => {
 	return (
 		<div className="w-full flex flex-col items-center tracking-normal">
 			<table className="w-full text-font-gray ">
-				{/* <thead className="bg-dark-grey"> */}
 				<tr className="bg-dark-grey">
 					<th className="text-xs font-medium text-left px-2 py-2 w-1/4">
 						Order ID
@@ -30,8 +29,6 @@ const TransactionLists = () => {
 						</div>
 					</th>
 				</tr>
-				{/* </thead> */}
-				{/* <tbody className=""> */}
 				{transactionRows.map((_, index) => {
 					return (
 						<tr key={index} className="border-b box-border">
@@ -50,22 +47,7 @@ const TransactionLists = () => {
 						</tr>
 					);
 				})}
-				{/* </tbody> */}
 			</table>
-			{/* <table className="w-full text-font-gray table-auto">
-				<tbody className="">
-					{transactionRows.map((_, index) => {
-						return (
-							<tr key={index} className="border-b ">
-								<td className="text-font-blue py-2">#281209</td>
-								<td className="text-center  font-normal">7 July, 2023</td>
-								<td className="text-right  font-normal">Rs 1278</td>
-								<td className="text-right  font-normal">Rs 22</td>
-							</tr>
-						);
-					})}
-				</tbody>
-			</table> */}
 		</div>
 	);
 };

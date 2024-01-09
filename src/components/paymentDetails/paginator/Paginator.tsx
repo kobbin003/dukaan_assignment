@@ -3,7 +3,7 @@ import IconRightArrow from "../../../icons/IconRightArrow";
 import Button from "../../button/Button";
 
 const Paginator = () => {
-	const pages = [1, 2, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+	const pages = [1, "...", 10, 11, 12, 13, 14, 15, 16, 17, 18];
 	return (
 		<div className="flex items-center gap-2 py-2">
 			<Button text="Previous" reverse>
@@ -19,7 +19,7 @@ const Paginator = () => {
 							page == 1 && "mr-1"
 						} text-font-gray text-xs px-1 py-0.5 rounded-sm `}
 					>
-						{page == 2 ? "..." : page}
+						{page}
 					</button>
 				))}
 			</div>

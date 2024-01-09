@@ -13,7 +13,7 @@ export default {
 				"font-grayer": "#d2d4d9",
 				"font-blue": "#146EB4",
 			},
-
+			fontSize: { xsm: "0.81rem" },
 			fontFamily: {
 				inter: ["Inter", "sans-serif"],
 			},

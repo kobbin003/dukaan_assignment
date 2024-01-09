@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<div className=" bg-white flex justify-between items-center h-14 px-8 py-7 border border-b-2 tracking-normal">
 			<div className="flex items-center gap-3">
-				<div className="text-font-dark">Payments</div>
+				<div className="text-font-dark text-xsm">Payments</div>
 				<div className="flex items-center text-font-gray gap-1 text-xs">
 					<IconHelp />
 					<p className="font-light text-xs">How it works</p>
